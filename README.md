@@ -14,6 +14,7 @@ Tools and resources used by PFEs
   * [ProcDump](https://download.sysinternals.com/files/ProcDump.zip) - [Docs](https://docs.microsoft.com/en-us/sysinternals/downloads/procdump)
   * [TCPView](https://download.sysinternals.com/files/TCPView.zip) - [Docs](https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview)
 * [Log Parser Studio](https://gallery.technet.microsoft.com/Log-Parser-Studio-cd458765)
+* [Performance Analysis of Logs (PAL) tool](https://github.com/clinthuffman/PAL/releases)
 
 ## [Chocolatey](https://chocolatey.org/)
 
