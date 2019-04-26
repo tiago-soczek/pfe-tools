@@ -15,6 +15,19 @@ Tools and resources used by PFEs
   * [TCPView](https://download.sysinternals.com/files/TCPView.zip) - [Docs](https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview)
 * [Log Parser Studio](https://gallery.technet.microsoft.com/Log-Parser-Studio-cd458765)
 * [Performance Analysis of Logs (PAL) tool](https://github.com/clinthuffman/PAL/releases)
+* [Netmon](https://www.microsoft.com/en-us/download/details.aspx?id=4865)
+
+## [Capture a Network Trace without installing anything](https://blogs.msdn.microsoft.com/canberrapfe/2012/03/30/capture-a-network-trace-without-installing-anything-capture-a-network-trace-of-a-reboot/)
+
+* Command
+
+    ```powershell
+    netsh trace start persistent=yes capture=yes tracefile=c:\temp\nettrace-boot.etl
+    ```
+    After reproduce the problem, stop the tracing
+    ```powershell
+    netsh trace stop
+    ```
 
 ## [Chocolatey](https://chocolatey.org/)
 
