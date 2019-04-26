@@ -28,6 +28,7 @@ Tools and resources used by PFEs
     ```powershell
     netsh trace stop
     ```
+    Dont't forget to change the parser in Netmon in order to properly do the analysis
 
 ## [Chocolatey](https://chocolatey.org/)
 
